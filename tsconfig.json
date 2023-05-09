@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "sanity-ecommerce/plugins/barcode-input/BarcodeInput.js", "sanity-ecommerce/plugins/barcode-input/BarcodeType.js", "next.config.js", "components/Cart.tsx","./node_modules/@sanity/base/types/**/*.tsx", "sanity-ecommerce/schemas/product.js", "sanity-ecommerce/schemas/schema.js", "sanity-ecommerce/schemas/banner.js"],
+  "exclude": ["node_modules"]
+}
